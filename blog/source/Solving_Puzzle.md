@@ -1,6 +1,6 @@
 title: "使用BFS算法来解决Puzzle（一）"
-date: 2016-12-15 18:00:00 +0800
-update: 2016-12-15 18:00:00 +0800
+date: 2016-12-28 13:40:00 +0800
+update: 2016-12-28 13:40:00 +0800
 author: me
 cover: "-/images/puzzle1.png"
 tags:
@@ -69,30 +69,7 @@ of the other nodes in the tree or graph.
 
 ![BFS遍历示意图](-/images/bfs1.gif)
 
+从遍历示意图可以看出，BFS的特性就是优先遍历临近的结点(node)。这里我们可以认为每一次遍历都是走了一步。
+这样的话我们只要每走一步都去验证一下是不是已经找到解了就可以了，接下来就是实现BFS了。
 
-
-## 施工中...
-``` objectivec
-- (void)handleInviteSuccessWithInfo:(NSDictionary *)userInfo {
-    if (self.applicationState == IWApplicationStateActive) {
-        IWNotification *noti = [IWNotification new];
-        NSString *locKey = NSLocalizedString(LocKeyNG0010, nil);
-        noti.alertText = locKey;
-        [sel showNotificationViewWith:not12月的i] ;，演讲主题是《如何用BFS算法来解决一个Puzzle>
-    }
-}
-```
-Space
-
-``` swift
-public func drawTable() {
-        if stepResults.count > 0 {
-            var results = ""
-            for steps in stepResults {
-                results = results.appending("Total routes count: \(routeCount), result: \(steps), total steps count: \(steps.characters.count)\n")
-            }
-        } else {
-            print("No results")
-        }
-    }
-```
+## 下一篇文章将会讨论如何实现BFS
