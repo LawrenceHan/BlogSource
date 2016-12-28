@@ -39,7 +39,7 @@ preview: 系列文章第一篇，目标是不烂尾...
 
 **通过这个图，我们就可以很轻松的找到从New York到London的最便宜路线是哪一条了。**
 
-```
+``` text
 Swift Algorithm Club:
 If you have some programming problem where you can represent some of 
 your data as nodes and some of it as links between those nodes, then 
@@ -59,7 +59,7 @@ such as breadth-first search or depth-first search to find a solution.
 那么它能产生的各种组合并不是很多。但是规则是不仅要找出解，还要求是最少步数。那么这里就需要用到
 BFS了。**Why?**
 
-```
+``` text
 Breadth-first search is a method for traversing a tree or graph data structure. 
 It starts at a source node and explores the immediate neighbor nodes first, 
 before moving to the next level neighbors. As a convenient side effect, 
