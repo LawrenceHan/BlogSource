@@ -10,6 +10,9 @@ preview: 系列文章第二篇，谈谈怎么实现BFS
 
 ---
 
+#### 配合音乐看，效果更好 ^_^
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=33922453&auto=1&height=66"></iframe>
+
 ## 一个简单的BFS实现
 
 ![BFS路径图](-/images/bfs3.png)
